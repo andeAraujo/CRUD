@@ -1,0 +1,64 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    input, button {
+        width: 100%;
+    }
+} */
+
+/* Importando Bootstrap para estilização moderna */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css");
+
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container central do formulário */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Botão de envio ocupando 100% da largura */
+button {
+  width: 100%;
+}
+
+/* Lista de usuários */
+#listaUsuarios {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo para cada item da lista de usuários */
+#listaUsuarios li {
+  background-color: #708ba6;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
